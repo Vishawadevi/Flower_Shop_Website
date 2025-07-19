@@ -1,0 +1,39 @@
+body {
+  background-color:lightpink;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #d6336c;
+}
+
+.card-title {
+  color: #d6336c;
+}
+
+footer {
+  background-color: #c9bfc2;
+  color: rgb(235, 21, 217);
+  padding: 20px 0;
+}
+
+.login-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff0f6;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(214, 51, 108, 0.3);
+}
+
+.icon-text {
+  font-size: 1.1rem;
+  margin-left: 8px;
+}
+
+h1.display-4,
+h2,
+.card-title {
+  color: #d6336c;
+}

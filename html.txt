@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flower Shop</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="flower.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">🌸 FlowerShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#delivery">Delivery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#login">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Banner -->
+  <header class="py-5 text-center bg-pink-50">
+    <div class="container">
+      <h1 class="display-4">Welcome to FlowerShop</h1>
+      <p class="lead">Fresh flowers delivered to your doorstep 🌷🌼</p>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section id="products" class="container my-5">
+    <h2 class="mb-4 text-center">Our Flowers</h2>
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <!--Cards Section-->
+  <!--Row 1-->
+  <div class="row products">
+	<!--Card 1-->
+	<div class="col-4">
+		<div class="card mb-3">
+        <img  height="525px" width="353px" style="float: left; padding-top: 6px; padding-right: 6px;"
+        src="pinkrose.jpg"/>
+        <div class="card-body">
+          <b>
+           <p class="card-text">Bright and cheerful sunflowers to brighten anyone's day.</p>
+          </b>
+          <span class="text-danger fw-bold">RS.100</span>
+              <button class="btn btn-sm btn-outline-danger"><i class="bi bi-cart-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+	</div>
+	<!--Card 2-->
+	<div class="col-4">
+		<div class="card mb-3">
+        <img  height="525px" width="353px" style="float: left; padding-top: 6px; padding-right: 6px;"
+        src="Marigold.jpeg"/>
+<div class="card-body">
+          <b>
+            <p class="card-text">Elegant Marigold perfect for special occasions and gifts.</p>
+          </b>
+          <span class="text-danger fw-bold">RS.499</span>
+              <button class="btn btn-sm btn-outline-danger"><i class="bi bi-cart-plus"></i> Add to Cart</button>
+         
+        </div>
+      </div>
+	</div>
+<!--Card 3-->
+	<div class="col-4">
+		   <div class="card mb-3">
+        <img height="525px" width="353px" style="float: left; padding-top: 6px; padding-right: 6px;"
+        src="Red rose.jpeg"/>
+        <div class="card-body">
+          <b>
+<p class="card-text">A classic bouquet of red roses, perfect for love </p>
+          </b>
+          <span class="text-danger fw-bold">RS.799</span>
+              <button class="btn btn-sm btn-outline-danger"><i class="bi bi-cart-plus"></i> Add to Cart</button>
+        </div>
+	</div>
+  </div>
+  <!--Card 4-->
+	<div class="col-4">
+		<div class="card mb-3">
+        <img  height="525px" width="353px" style="float: left; padding-top: 6px; padding-right: 6px;"
+        src="yellow rose.jpeg"/>
+        <div class="card-body">
+          <b>
+           <p class="card-text">Yellow flowers, like little drops of happiness in nature.</p>
+          </b>
+          <span class="text-danger fw-bold">RS.99</span>
+              <button class="btn btn-sm btn-outline-danger"><i class="bi bi-cart-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+	</div>
+	<!--Card 5-->
+	<div class="col-4">
+		<div class="card mb-3">
+        <img  height="525px" width="353px" style="float: left; padding-top: 6px; padding-right: 6px;"
+        src="Lotus.jpeg"/>
+<div class="card-body">
+          <b>
+            <p class="card-text">The lotus flower blooms most beautifully from the deepest and thickest mud.</p>
+          </b>
+          <span class="text-danger fw-bold">RS.149</span>
+              <button class="btn btn-sm btn-outline-danger"><i class="bi bi-cart-plus"></i> Add to Cart</button>
+         
+        </div>
+      </div>
+	</div>
+<!--Card 6-->
+	<div class="col-4">
+		   <div class="card mb-3">
+        <img height="525px" width="353px" style="float: left; padding-top: 6px; padding-right: 6px;"
+        src="lily.webp"/>
+        <div class="card-body">
+          <b>
+<p class="card-text">Elegant lilies perfect for special occasions and gifts.</p>
+          </b>
+          <span class="text-danger fw-bold">RS.599</span>
+              <button class="btn btn-sm btn-outline-danger"><i class="bi bi-cart-plus"></i> Add to Cart</button>
+        </div>
+      </div>
+	</div>
+  </div>
+  
+
+
+  <!-- Delivery Section -->
+  <section id="delivery" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Delivery Options</h2>
+      <div class="row justify-content-center g-4">
+        <div class="col-md-4">
+          <div class="card p-4 shadow-sm h-100">
+            <i class="bi bi-truck fs-1 text-danger"></i>
+            <h5 class="mt-3">Fast Delivery</h5>
+            <p>We deliver fresh flowers quickly and safely to your doorstep.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 shadow-sm h-100">
+            <i class="bi bi-house-door fs-1 text-danger"></i>
+            <h5 class="mt-3">Home Delivery</h5>
+            <p>Enjoy the convenience of flowers delivered right to your home.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 shadow-sm h-100">
+            <i class="bi bi-geo-alt fs-1 text-danger"></i>
+            <h5 class="mt-3">Location Based</h5>
+            <p>We deliver across multiple locations. Enter your address at checkout.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Login Section -->
+  <section id="login" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Login to Your Account</h2>
+      <div class="login-container mx-auto">
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Your password" required />
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p><i class="bi bi-telephone-fill"></i> Call us: +91 7876765756</p>
+      <p><i class="bi bi-envelope-fill"></i> Email: support@flowershop.com</p>
+      <p><i class="bi bi-geo-alt-fill"></i> 123 Flowe shop, Mumbai City</p>
+      <small>© 2025 FlowerShop. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
